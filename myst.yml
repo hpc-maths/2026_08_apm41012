@@ -1,0 +1,35 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 6901cbfa-c674-4688-a8ae-1c5841758551
+  title: APM41012EP
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  toc:
+    - file: contents/home.md
+      hidden: true
+    - file: contents/instructions.md
+    - title: Condition number and stability
+      children:
+        - file: contents/chapter/01_condition_stabilty/intro.md
+          children:
+          - file: contents/chapter/01_condition_stabilty/mpmath.ipynb
+        - file: contents/chapter/01_condition_stabilty/notions.md
+          children:
+            - file: contents/chapter/01_condition_stabilty/error.ipynb
+            - file: contents/chapter/01_condition_stabilty/conditioning.ipynb
+            - file: contents/chapter/01_condition_stabilty/stability.ipynb
+        - file: contents/chapter/01_condition_stabilty/loin.md
+          children:
+            - file: contents/chapter/01_condition_stabilty/interval_arithmetic.ipynb
+        - file: contents/chapter/01_condition_stabilty/challenge.md
+          children:
+            - file: contents/chapter/01_condition_stabilty/absorption_cancel.ipynb
+            - file: contents/chapter/01_condition_stabilty/challenge_rump.ipynb
+site:
+  template: book-theme
+  options:
+    logo: logo_apm_41012_ep.png
+  #   favicon: favicon.ico
