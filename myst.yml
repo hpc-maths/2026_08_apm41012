@@ -11,7 +11,7 @@ project:
     - file: contents/home.md
       hidden: true
     - file: contents/instructions.md
-    - title: Condition number and stability
+    - title: Conditioning and stability
       children:
         - file: contents/chapter/01_condition_stabilty/intro.md
           children:
