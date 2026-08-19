@@ -3,9 +3,9 @@
 
 **Year 2026-2027**
 
-We recall that numerical analysis is defined here, in the mind of Nick Trefethen, as a study of methods and algorithms for the effective resolution of continuous mathematics problems.
+We recall that numerical analysis is defined here, along the lines and the spirit of Nick Trefethen, as a study of methods and algorithms for the effective resolution of continuous mathematics problems.
 
-As part of the second year course of the APM41012EP at École polytechnique: “Introduction to Numerical Analysis: From Mathematical Foundations to Experimentation with Jupyter”, students must familiarize themselves with three levels of skills:
+As part of the second year course of the APM41012EP at École polytechnique: “Introduction to Numerical Analysis: From Mathematical Foundations to Experimentation with Jupyter”, students will get familiar with three levels of skills:
 
  - Understanding the mathematical foundations of numerical analysis
 
@@ -17,7 +17,7 @@ The textbook provides a solid basis for the first point, as well as the design o
 
 We have therefore undertaken to provide a unified place, thanks to the possibilities offered by the JupyterBook, allowing a facilitated use of notebooks and a real flexibility for students.
 
-For each chapter, the reader will find an Introduction to set the stakes of the chapter, a useful set of notebooks for the required part of the course in the Essentials section, elements to go further for the students interested, and finally a Challenge whose resolution must show that the essential notions of the course have been assimilated.
+For each chapter, the reader will find an Introduction to set the stakes of the chapter, a useful set of notebooks for the required part of the course in the Essentials section, elements to go further for the students interested, and finally a Challenge whose resolution will show that the essential notions of the course have been assimilated.
 
 Three modes of use of the JupyterBook are then possible:
 
@@ -25,4 +25,4 @@ Three modes of use of the JupyterBook are then possible:
 
  - Download Jupyter notebooks and run them in his personal environment
  
- - Use the JupyterHub of the École Polytechnique that we have set up specifically for this type of use. This allows you to edit the notebook directly and run it, but it should be noted that the notebook is not saved when the session ends (unless copied to the directory persist).
+ - Use the JupyterHub of the École Polytechnique that we have set up specifically for this type of use. This allows you to edit the notebook directly and run it, but it should be noted that the notebook is not saved when the session ends (unless copied to the dedicated directory with persistant data).
