@@ -28,6 +28,11 @@ project:
           children:
             - file: contents/chapter/01_condition_stabilty/absorption_cancel.ipynb
             - file: contents/chapter/01_condition_stabilty/challenge_rump.ipynb
+    - title: PC
+      children:
+        - file: contents/pc/pc01.ipynb
+          title: PC 1
+
 site:
   template: book-theme
   options:
