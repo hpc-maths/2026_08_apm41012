@@ -1,0 +1,5 @@
+# Introduction
+
+Chapter 2 of the course introduces the polynomial interpolation originally proposed by Newton and Lagrange, along several lines. The first is to provide the various possible formalisms, from Lagrange's, which has a bad reputation but underwent a revival in the mid-2000s with the use of barycentric formulas, to Newton's, which is often taught but raises many stability problems. The second one, which is fundamental, consists in knowing the theoretical convergence properties that provide a guide for analyzing the results and that avoid falling into the classical traps of the field. The last one is the analysis of the conditioning of mathematical problems and of the stability of methods, which we studied in Chapter 1 and which is perfectly illustrated here.
+
+In this section, the reader will find [classical interpolation examples](./examples).

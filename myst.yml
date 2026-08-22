@@ -28,6 +28,21 @@ project:
           children:
             - file: contents/chapter/01_condition_stabilty/absorption_cancel.ipynb
             - file: contents/chapter/01_condition_stabilty/challenge_rump.ipynb
+    - title: Polynomial interpolation
+      children:
+        - file: contents/chapter/02_interp/intro.md
+          children:
+          - file: contents/chapter/02_interp/examples.ipynb
+        - file: contents/chapter/02_interp/notions.md
+          children:
+            - file: contents/chapter/02_interp/runge.ipynb
+            - file: contents/chapter/02_interp/cond.ipynb
+            - file: contents/chapter/02_interp/stability.ipynb
+        - file: contents/chapter/02_interp/loin.md
+          children:
+            - file: contents/chapter/02_interp/interp_sin.ipynb
+            - file: contents/chapter/02_interp/interp_runge.ipynb
+        - file: contents/chapter/02_interp/challenge_interp.ipynb
     - title: PC
       children:
         - file: contents/pc/pc01.ipynb
