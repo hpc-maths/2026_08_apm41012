@@ -1,0 +1,3 @@
+# Going further
+
+In the case where the function has an integrable singularity or a localized difficulty, refining the number of integration sub-intervals uniformly over the integration interval will not be efficient, and one is tempted to move towards adaptive quadrature. In [the notebook of this section](adapt.ipynb) we propose an example of adaptive quadrature based on Gauss-Legendre quadrature that has the property of being embedded, that is, it uses several quadrature orders to build an error estimate without needing to re-evaluate the function. The efficiency of the approach is demonstrated on two typical functions.

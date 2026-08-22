@@ -23,7 +23,7 @@ For this option, simply download the Jupyter notebooks from this site and run th
 
 - Install the Python packages required for the course:
 
-`mamba install jupyterlab mpmath numpy scipy matplotlib plotly quadpy sage=10.6`
+`mamba install jupyterlab mpmath numpy scipy matplotlib plotly sympy`
 
 
 - Start the Jupyter server:

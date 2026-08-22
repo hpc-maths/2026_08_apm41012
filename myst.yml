@@ -43,6 +43,19 @@ project:
             - file: contents/chapter/02_interp/interp_sin.ipynb
             - file: contents/chapter/02_interp/interp_runge.ipynb
         - file: contents/chapter/02_interp/challenge_interp.ipynb
+    - title: Numerical integration
+      children:
+        - file: contents/chapter/03_integ/intro.md
+          children:
+          - file: contents/chapter/03_integ/quad.ipynb
+        - file: contents/chapter/03_integ/notions.md
+          children:
+            - file: contents/chapter/03_integ/erreur.ipynb
+            - file: contents/chapter/03_integ/ordre.ipynb
+        - file: contents/chapter/03_integ/loin.md
+          children:
+            - file: contents/chapter/03_integ/adapt.ipynb
+        - file: contents/chapter/03_integ/challenge_integ.ipynb
     - title: PC
       children:
         - file: contents/pc/pc01.ipynb
