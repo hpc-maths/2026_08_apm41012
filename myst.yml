@@ -60,6 +60,10 @@ project:
       children:
         - file: contents/pc/pc01.ipynb
           title: PC 1
+    - title: Tutorial
+      children:
+        - file: contents/tutorial/tuto_01.ipynb
+        - file: contents/tutorial/tuto_02.ipynb
 
 site:
   template: book-theme
