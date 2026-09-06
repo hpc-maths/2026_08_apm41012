@@ -60,6 +60,8 @@ project:
       children:
         - file: contents/pc/pc01.ipynb
           title: PC 1
+        - file: contents/pc/pc02.ipynb
+          title: PC 2
     - title: Tutorial
       children:
         - file: contents/tutorial/tuto_01.ipynb
