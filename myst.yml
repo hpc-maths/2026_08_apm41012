@@ -56,6 +56,19 @@ project:
           children:
             - file: contents/chapter/03_integ/adapt.ipynb
         - file: contents/chapter/03_integ/challenge_integ.ipynb
+    - title: Direct methods for linear systems
+      children:
+        - file: contents/chapter/04_direct_lin_sys/intro.md
+          children:
+          - file: contents/chapter/04_direct_lin_sys/examples.ipynb
+        - file: contents/chapter/04_direct_lin_sys/notions.md
+          children:
+            - file: contents/chapter/04_direct_lin_sys/sys_lin_sympy.ipynb
+            - file: contents/chapter/04_direct_lin_sys/pivot.ipynb
+        - file: contents/chapter/04_direct_lin_sys/loin.md
+          children:
+            - file: contents/chapter/04_direct_lin_sys/storage.ipynb
+        - file: contents/chapter/04_direct_lin_sys/challenge.ipynb
     - title: PC
       children:
         - file: contents/pc/pc01.ipynb
