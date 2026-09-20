@@ -1,0 +1,5 @@
+# Introduction
+
+Direct methods suffer from a limited ability to be parallelised, and using a direct algorithm with pivoting can be very costly in computing time when the size of the matrix becomes too large, in particular when we turn to problems resulting from the discretisation of PDEs in three dimensions. As the size of the matrix increases, the matrices are indeed sparse but the storage associated with the LU decomposition becomes very high, whereas the condition number is not necessarily very large, as shown in [this notebook](limite_direct.ipynb).
+
+Iterative methods have existed for a long time, introduced by Jacobi and Gauss (as well as Ludwig von Seidel), but some of them can converge slowly. Iterative methods have come back into fashion in order to tackle large-scale problems, in particular in the framework of high-performance computing for sparse matrices and for today's realistic problems. On the other hand, we have fewer theoretical results than for direct methods and numerical experimentation is important here.
