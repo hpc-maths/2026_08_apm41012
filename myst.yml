@@ -75,6 +75,10 @@ project:
           title: PC 1
         - file: contents/pc/pc02.ipynb
           title: PC 2
+        - file: contents/pc/pc03.ipynb
+          title: PC 3
+        - file: contents/pc/pc04.ipynb
+          title: PC 4
     - title: Tutorial
       children:
         - file: contents/tutorial/tuto_01.ipynb
