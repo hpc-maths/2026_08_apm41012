@@ -86,6 +86,19 @@ project:
           children:
             - file: contents/chapter/05_iterative_lin_sys/cg_gram_schmidt.ipynb
             - file: contents/chapter/05_iterative_lin_sys/cg.ipynb
+    - title: Nonlinear equations
+      children:
+        - file: contents/chapter/06_non_linear_eq/intro.md
+          children:
+          - file: contents/chapter/06_non_linear_eq/examples.ipynb
+        - file: contents/chapter/06_non_linear_eq/notions.md
+          children:
+            - file: contents/chapter/06_non_linear_eq/newton_secant.ipynb
+            - file: contents/chapter/06_non_linear_eq/thermal_explosion.ipynb
+        - file: contents/chapter/06_non_linear_eq/loin.md
+          children:
+            - file: contents/chapter/06_non_linear_eq/modified_newton.ipynb
+        - file: contents/chapter/06_non_linear_eq/challenge.ipynb
     - title: PC
       children:
         - file: contents/pc/pc01.ipynb
