@@ -99,6 +99,19 @@ project:
           children:
             - file: contents/chapter/06_non_linear_eq/modified_newton.ipynb
         - file: contents/chapter/06_non_linear_eq/challenge.ipynb
+    - title: Ordinary differential equations I
+      children:
+        - file: contents/chapter/07_edo_01/intro.md
+          children:
+          - file: contents/chapter/07_edo_01/examples.ipynb
+          - file: contents/chapter/07_edo_01/euler.ipynb
+        - file: contents/chapter/07_edo_01/notions.md
+          children:
+            - file: contents/chapter/07_edo_01/peano.ipynb
+            - file: contents/chapter/07_edo_01/curtiss.ipynb
+            - file: contents/chapter/07_edo_01/conservative_systems.ipynb
+            - file: contents/chapter/07_edo_01/explosion.ipynb
+        - file: contents/chapter/07_edo_01/challenge.ipynb
     - title: PC
       children:
         - file: contents/pc/pc01.ipynb
