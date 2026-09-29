@@ -109,6 +109,8 @@ project:
           title: PC 3
         - file: contents/pc/pc04.ipynb
           title: PC 4
+        - file: contents/pc/pc05.ipynb
+          title: PC 5
     - title: Tutorial
       children:
         - file: contents/tutorial/tuto_01.ipynb
