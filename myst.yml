@@ -112,6 +112,20 @@ project:
             - file: contents/chapter/07_edo_01/conservative_systems.ipynb
             - file: contents/chapter/07_edo_01/explosion.ipynb
         - file: contents/chapter/07_edo_01/challenge.ipynb
+    - title: Ordinary differential equations II
+      children:
+        - file: contents/chapter/08_edo_02/intro.md
+          children:
+          - file: contents/chapter/08_edo_02/explosion_euler.ipynb
+        - file: contents/chapter/08_edo_02/notions.md
+          children:
+            - file: contents/chapter/08_edo_02/curtiss_rk.ipynb
+            - file: contents/chapter/08_edo_02/brusselator_rk.ipynb
+            - file: contents/chapter/08_edo_02/explosion_rk.ipynb
+        - file: contents/chapter/08_edo_02/loin.md
+          children:
+            - file: contents/chapter/08_edo_02/adaptive_rk.ipynb
+        - file: contents/chapter/08_edo_02/challenge.ipynb
     - title: PC
       children:
         - file: contents/pc/pc01.ipynb
