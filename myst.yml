@@ -126,6 +126,31 @@ project:
           children:
             - file: contents/chapter/08_edo_02/adaptive_rk.ipynb
         - file: contents/chapter/08_edo_02/challenge.ipynb
+    - title: Partial differential equations I
+      children:
+        - file: contents/chapter/09_edp_01/intro.md
+          children:
+          - file: contents/chapter/09_edp_01/edptoedo.ipynb
+        - file: contents/chapter/09_edp_01/notions.md
+          children:
+            - file: contents/chapter/09_edp_01/heat_edo.ipynb
+            - file: contents/chapter/09_edp_01/vp_laplacien.ipynb
+            - file: contents/chapter/09_edp_01/heat_edp.ipynb
+        - file: contents/chapter/09_edp_01/challenge.ipynb
+    - title: Partial differential equations II
+      children:
+        - file: contents/chapter/10_edp_02/notions.md
+          children:
+            - file: contents/chapter/10_edp_02/nagumo.ipynb
+    - title: Partial differential equations III
+      children:
+        - file: contents/chapter/11_edp_03/intro.md
+          children:
+          - file: contents/chapter/11_edp_03/limites.ipynb
+        - file: contents/chapter/11_edp_03/notions.md
+          children:
+            - file: contents/chapter/11_edp_03/linear.ipynb
+            - file: contents/chapter/11_edp_03/burgers.ipynb
     - title: PC
       children:
         - file: contents/pc/pc01.ipynb
